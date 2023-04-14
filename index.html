@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+  <!-- AWESOME ICONS -->
+  <script src="https://kit.fontawesome.com/e28c09d215.js" crossorigin="anonymous"></script>
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="calculator">
+
+    <div class="row" id="row0">
+      <input type="text" class="screen" id="screen" placeholder="0">
+    </div>
+    
+    <div class="row" id="row1">
+      <button class="symbol" id="ac-btn">AC</button>
+      <button class="symbol" id="c-btn"><i class="fa-solid fa-delete-left"></i></button>
+      <button class="symbol show" value="/">/</button>
+      <button class="symbol show" value="*">*</button>
+    </div>
+    
+    <div class="row" id="row2">
+      <button class="number show" value="7">7</button>
+      <button class="number show" value="8">8</button>
+      <button class="number show" value="9">9</button>
+      <button class="symbol show" value="-">-</button>
+    </div>
+    
+    <div class="row" id="row3">
+      <button class="number show" value="4">4</button>
+      <button class="number show" value="5">5</button>
+      <button class="number show" value="6">6</button>
+      <button class="symbol show" value="+">+</button>
+    </div>
+    
+    <div class="row" id="row4">
+      <button class="number show" value="1">1</button>
+      <button class="number show" value="2">2</button>
+      <button class="number show" value="3">3</button>
+      <button class="symbol show" value=".">.</button>
+    </div>
+    
+    <div class="row" id="row5">
+      <!-- <button class="number show" value="(">(</button> -->
+      <button class="number show" value="0">0</button>
+      <!-- <button class="number show" value=")">)</button> -->
+      <button class="result show" id="result">=</button>
+    </div>
+    
+  </div>
+
+  <!-- JS -->
+  <script src="main.js"></script>
+</body>
+</html>
